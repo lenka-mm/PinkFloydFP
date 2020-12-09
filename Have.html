@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Have A Cigar</title>
+        <link rel="icon" href="pocetne/Pink Floyd.jpg">
+        <link rel="stylesheet" href="css/have.css">
+
+    </head>
+    <body>
+       
+        <dugme id="home" onclick="home()">HOME</dugme>
+        <div class="container">
+            
+
+            <div class="tekst">
+                
+                <h1>Have A Cigar</h1>
+                <p>
+                    <button class= "btn"id="b1" onclick="prikazib1()">
+                        Come in here, dear boy, have a cigar, you're gonna go far</button><br>
+                    <button class="btn" id="b2" onclick="prikazib2()">
+                        You're gonna fly high, you're never gonna die
+                        <br> You're gonna make it if you try, trey're gonna love you<br></button>
+                    <button class="btn" id="b3" onclick="prikazib3()">
+                        Well, I've always had a deep respect an' I mean that most sincerely
+                        <br> The band is just fantastic, that is really what I think
+                        <br> Oh, by the way, which one's pink?
+                    </button>
+                    <br>
+                    <br>
+                    <button class="btn" id="b4" onclick="prikazib4()">
+                        And did we tell you the name of the game
+                        <br> We call it riding the gravy train
+                    </button>
+                    <br>
+                    <br>
+                    <button class= "btn"id="b5" onclick="prikazib5()">
+                        We're just knocked out, we heard about the sell-out<br>
+                        You gotta get an album out, you owe it to the people<br>
+                        We're so happy we can hardly count.
+                    </button><br>
+                    <button class="btn" id="b6" onclick="prikazib6()">
+                        Everybody else is just green, have you seen the chart?<br>
+                        It's a hell of a start, it could be made into a monster<br>
+                        If we all pull together as a team
+                    </button><br>
+                    <br>
+                    <br>
+                    <button class="btn" id="b4" onclick="prikazib4()">
+                        And did we tell you the name of the game
+                        <br> We call it riding the gravy train
+                    </button>
+                         
+
+
+
+                </p>
+
+            </div>
+
+            <div class= "facts">
+                <iframe id="video" src="https://www.youtube.com/embed/tbdpv7G_PPg" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="par" id="p1"> 
+                    This song is about the industry and how it is capable
+                    of doing anything just to get to money. This song has the same
+                    message as the "Welcome to the machine" album.</p> 
+                 
+        
+                <br>
+                <p class="par" id="p2"> 
+                    Ironically, they are talking about how they
+                    can make you rich and how you're going to
+                    be loved.
+                </p> <br>
+                <p class="par" id="p3"> 
+                    They are worshiping the band and tell them how
+                    they are 'just fantastic' yet they can't seem to
+                    remember their name.
+
+                </p> <br>
+                <p class="par" id="p4"> 
+                    They keep pointing out 
+                    the fact that these companies will go as long 
+                    as possible to squeeze every last cent out of their clients. <br>
+                <p class="par" id="p5"> 
+                    This song came out after the "The dark side 
+                    of the moon" album which was sold out. After that album, the company
+                    realised how much money they can make from this band
+                    So, they wanted to keep them and exploit them as much as possible.
+                </p> <br>
+                <p class="par" id="p6"> 
+                    The company is telling them how they can be even
+                    bigger just if they stick with them and 
+                    'all pull together as a team'
+                </p> <br>
+
+
+            </div>
+        </div>
+
+       
+        <div class="linije">
+            <hr  id="linija-1">
+            <hr  id="linija-2">
+            <hr  id="linija-3">
+            <hr class="linije" id="linija-4">
+            <hr class="linije" id="linija-5">
+            <hr id="linija-6">
+        </div>
+
+        
+        <div>
+            <h1>What should I listen to next?</h1>
+            
+
+            <form id="form" onsubmit="forma()">
+                <h4>Enter your name, we want to know our fans:</h4>
+                <input  id="name" type="text"  name="name" required />
+                
+                <br>
+                <br>
+
+                <h4>Now, tell us your nickname:</h4>
+                <input  id="nickname" type="text"  name="nickname" required />
+
+                <br>
+                <br>
+
+                <h4>Select your favourite album:</h4>
+
+                <input id="darkside" type="radio" value="moon" name="album">
+                <label for="moon">Dark Side Of The Moon</label><br>
+
+                <input id="wish" type="radio" value="wish" name="album">
+                <label for="wish">Wish you were here</label><br>
+                
+                <input id="animals" type="radio" value="animals" name="album">
+                <label for="Animals">Animals</label><br>
+
+                <input id="wall" type="radio" value="wall" name="album">
+                <label for="Wall">The Wall</label>
+
+                <br><br>
+                <input type="submit" value="Submit" id="btn-form">
+            </form>
+
+        </div>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="js/have.js"> </script>
+        
+    </body>
+
+
+
+</html>

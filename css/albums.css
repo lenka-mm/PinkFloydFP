@@ -1,0 +1,60 @@
+.container{
+    widows: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    background-image: url('background.jpg');
+}
+
+button{
+    margin-left: 1%;
+    position:fixed;
+    font-family: monospace;
+    font-size: 30px;
+    background-color: #13344c;
+    color:white;
+    border-radius: 10%;
+    border:none;
+    z-index: 2;
+}
+button:hover{
+    background-color: white;
+    color: #13344c;
+}
+
+#tabela{
+    width: 80%;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: monospace;  
+    font-size: 25px;
+    opacity: 0.9;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:white;
+}
+img{
+    height:250px;
+    width:250px;
+}
+
+table th{
+    background-color: #13344c;
+    color:white;
+    opacity: 1;
+    
+}
+tr:nth-child(even){
+    background-color: #88BFCB;
+}
+tr:nth-child(odd){
+    background-color:white;
+}
+tr:hover{
+    background-color:#13344c ;
+    color:white;
+}
